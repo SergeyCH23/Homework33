@@ -1,0 +1,27 @@
+//  Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+// // 0, 7, 8, -2, -2 -> 2
+// // 1, -7, 567, 89, 223-> 3
+
+
+//  int[] GetArray(int size)
+// {
+//     int [] array = new int[size];
+//     for (int i = 0; i < size ; i++)
+//     {
+//         Console.WriteLine("Введите элемент массива ");
+//         array[i] = Convert.ToInt32(Console.ReadLine()) ;
+//     }
+//     return array;
+// }
+// int [] resultArray = GetArray(6);
+// Console.WriteLine($"Массив: [ {String.Join(";", resultArray)} ]");
+// int i;
+//  int count = 0;
+//  for (i = 0; i < resultArray.Length; i++)
+//  {
+//     if (resultArray[i] > 0)
+//     {
+//        count++;
+//     }
+// }
+// Console.WriteLine($"Пользователь ввел: {count} числа(сел) больше нуля ");
